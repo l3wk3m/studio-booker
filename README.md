@@ -1,6 +1,6 @@
-# Frisa Booking
+# Studio Booker
 
-![AmIResponsive image of Frisa Booking](doc/amiresponsive.webp)
+![AmIResponsive image of Studio Booker]()
 
 ## Introduction
 
@@ -607,7 +607,7 @@ After a successful booking, a text that confirm the booking appears.
 
 ![Three navigation buttons; "View my bookings", "Home" and "Book another space"]()
 
-Under the confirmation text, three navigation buttons are visible; "View my bookings", "Home" and "Book another workshop". On smaller devices, only "View my bookings" and "Book another workshop" are visible. These buttons are there to make the user to stay at the website after a successful booking.
+Under the confirmation text, three navigation buttons are visible; "View my bookings", "Home" and "Book another space". On smaller devices, only "View my bookings" and "Book another space" are visible. These buttons are there to make the user to stay at the website after a successful booking.
 
 ### My bookings page
 
@@ -627,17 +627,17 @@ When the user doesn't have any active bookings, a text informs the user about it
 
 ![Text to notice the user that they have at least one active booking]()
 
-When the user has at least one booking, the user gets a text that informs that all their booked sessions are presented below. The text is also supposed to get the user to have a small giggle and get excited for upcoming workshops.
+When the user has at least one booking, 
 
 #### Active bookings - booked workshops
 
 ![The user bookings are presented]()
 
-The user bookings are presented so that the workshop that is next in time appears first. Each booked workshop card has an Edit button and a Cancel button. When the Edit button is pressed, the user gets directed to the edit booking page. When the Cancel button is pressed, a confirmation modal is triggered. These two buttons allows the user to edit and delete the booked session if the user has to change their plans.
+The user bookings are presented so that the booking that is next in time appears first. Each booked space card has an Edit button and a Cancel button. When the Edit button is pressed, the user gets directed to the edit booking page. When the Cancel button is pressed, a confirmation modal is triggered. These two buttons allows the user to edit and delete the booked session if the user has to change their plans.
 
 #### Active bookings pagination
 
-![My bookings pagination](doc/my-bookings-pagination.webp)
+![My bookings pagination]()
 
 If the user has more than four active bookings, a pagination appears below the active bookings. This is to enhance the user experience, to make it easier for the user to see their active bookings.
 
@@ -651,43 +651,37 @@ When the user presses the Cancel button in their active bookings, a confirm canc
 
 #### Available Spaces
 
-![All available workshops presented as booking buttons](doc/available-workshops.webp)
+![All available spaces presented as booking buttons]()
 
-All available workshops are presented in a similar way as on the booking page. The title of the workshop, date, time and available spots are presented. The similarity should make the user recognize the how to book a workshop session. When the user clicks the workshop they want to change their booking to, a confirmation modal is triggered.
+All available spaces are presented in a  .
 
 #### Available Spaces Pagination
 
 ![Available Spaces Pagination]()
 
-If there are more than eight available workshops to select from, pagination appears. This is to enhance the user experience, to avoid scrolling through a wall of available workshops.
+If there are more than eight available spaces to select from, pagination appears. This is to enhance the user experience, to avoid scrolling through a wall of available spaces.
 
-#### Confirm workshop change modal
+#### Confirm space change modal
 
-![Confirmation modal to ensure the user wants to change their workshop booking](doc/confirm-edit.webp)
+![Confirmation modal to ensure the user wants to change their workshop booking]()
 
-The confirmation modal ensures that the user wants to edit their booking to the selected workshop session. This to avoid the user editing their booking to a session they didn't want to book. The text is written in a way that should enhance the user's feeling that this is a friendly and fun website.
-
-### News page
-
-![News page, only visible for staff members and superusers](doc/news-page.webp)
-
-The news page is only visible for staff members and superusers. Through the admin panel all staff members and superusers can write news of what happened at their latest workshop. The name of the workshops are located below the header. The name of the member who has written it and when it is published are located at the bottom of the section.
+The confirmation modal ensures that the user wants to edit their booking to the selected .
 
 ### Sign up page
 
-![Sign up page with fields for email, username, password and password again](doc/sign-up.webp)
+![Sign up page with fields for email, username, password and password again]()
 
 The sign up page have fields where the user is required to fill out email, username, password and password again. This to make sure the user doesn't get a typo in the password and to ensure the user register a way to contact them.
 
 ### Sign in page
 
-![Sign in page with fields for email and password](doc/sign-in.webp)
+![Sign in page with fields for email and password]()
 
 The sign in page allows the user who already has an account to sign in. This to make the user experience smoother where they don't have to fill out their email every time they want to make a booking. It is also an advantage that the user can see all their bookings.
 
 ### Sign out page
 
-![Sign out page with a confirmation button](doc/sign-out.webp)
+![Sign out page with a confirmation button]()
 
 The sign out page allows the user to sign out to ensure no one else can edit the users booking. The sign out button ensures the user really wanted to sign out and didn't press on Sign out by mistake.
 
@@ -695,13 +689,13 @@ The sign out page allows the user to sign out to ensure no one else can edit the
 
 #### 404 page text
 
-![Text provided when a 404 page is rendered](doc/404-text.webp)
+![Text provided when a 404 page is rendered]()
 
 The text explains to the user in a fun way that the page they are looking for doesn't exist. It points the user in the direction of heading back to the homepage to give it a new try.
 
 #### 404 page button
 
-![Button which takes the user to the homepage](doc/404-button.webp)
+![Button which takes the user to the homepage]()
 
 The button below the 404 text directs the user back to the homepage. This allows the user to give it a new shot to find the page they were looking for.
 
@@ -709,21 +703,21 @@ The button below the 404 text directs the user back to the homepage. This allows
 
 #### 500 page text
 
-![Screenshot of the text at the 500 page](doc/500-text.webp)
+![Screenshot of the text at the 500 page]()
 
 The text at the 500 page explains to the user that the server isn't working as intended. This is to make sure the user knows what is happening.
 
 #### 500 page tips
 
-![The tips of what to do when a 500 page is rendered](doc/500-tips.webp)
+![The tips of what to do when a 500 page is rendered]()
 
 The tips suggests to the user what they can do; refresh the page, go back to the homepage or send the website owner an email. The suggestion about going back to the homepage is provided with a link to the homepage. The suggestion about sending an email is provided with a link to the contact form.
 
 ### Footer
 
-![Footer with developers name and year to the left and links to the Contact form and connecting Facebook, Instagram and Pinterest accounts](doc/footer.webp)
+![Footer with developers name and year to the left and links to the Contact form and connecting Facebook, Instagram and Pinterest accounts]()
 
-To the left, the developers name is to tell the world who the brain behind the website is. To the right, four symbols represent what they link to. The first, the pen, links the user to the Contact form at the about page. The second, Facebook icon, links the user to Facebook in a new tab. The third, Instagram icon, links the user to Instagram in a new tab. The fourth, Pinterest icon, links to Pinterest in a new tab.
+.
 
 ## Features to be Added
 
@@ -743,40 +737,41 @@ Several features can be added in the future.
 
 #### HTML
 
-![Screenshot of HTML validation of index page](doc/index-html-valid.webp)
+![Screenshot of HTML validation of index page]()
 
-All the pages were tested at the [W3C Markup Validation Service](https://validator.w3.org/). The index page validation is presented above, all the other validations are linked below.
+All the pages were tested at the [W3C Markup Validation Service](). The index page validation is presented above, all the other validations are linked below.
 
-- [About page](doc/about-html-valid.webp)
-- [Booking page](doc/booking-html-valid.webp)
-- [My bookings](doc/my-bookings-html-valid.webp)
-- [News page](doc/news-html-valid.webp)
-- [Edit booking](doc/edit-booking-html-valid.webp)
-- [Success page](doc/success-html-valid.webp)
-- [404 page](doc/404-html-valid.webp)
-- [500 page](doc/500-page-html-valid.webp)
+- [About page](doc/)
+- [Booking page]()
+- [My bookings]()
+- [News page]()
+- [Edit booking]()
+- [Success page]()
+- [404 page]()
+- [500 page]()
 
 #### CSS
 
 ![Screenshot of CSS validation](doc/css-valid.webp)
 
-The CSS code was tested at [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). It resulted without any errors but with one warning. The warning was "Imported style sheets are not checked in direct input and file upload modes" which refers to the fonts which are imported from Google fonts.
+The CSS code was tested at [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). It resulted in.
 
 #### JavaScript
 
-All three JavaScript files were validated through [JSHint](https://jshint.com/). The validation rendered without errors. In two of the files, Booking and Edit Booking, one undefined variable was discovered. This undefined variable was bootstrap. This variable originates from the Bootstrap framework and is thus declared in its documentation.
+All JavaScript files were validated through [JSHint](https://jshint.com/). The validation rendered without errors. 
+
 
 **Booking page**
 
-![JavaScript validation of Booking page](doc/js-valid-booking.webp)
+![JavaScript validation of Booking page]()
 
 **Edit booking page**
 
-![JavaScript validation of Edit booking](doc/js-valid-edit.webp)
+![JavaScript validation of Edit booking]()
 
 **Delete booking**
 
-![JavaScript validation of Delete booking](doc/js-valid-delete.webp)
+![JavaScript validation of Delete booking]()
 
 #### Python
 
@@ -784,19 +779,19 @@ All Python files have been validated through [CI Python Linter](https://pep8ci.h
 
 **Bookings - views.py**
 
-![Python validation of views.py in bookings](doc/pep8-booking-views.webp)
+![Python validation of views.py in bookings]()
 
 **About - views.py**
 
-![Python validation of views.py in about](doc/pep8-about-views.webp)
+![Python validation of views.py in about]()
 
 **News - views.py**
 
-![Python validation of views.py in news](doc/pep8-news-views.webp)
+![Python validation of views.py in news]()
 
-- [Python validation of models.py in bookings](doc/pep8-booking-models.webp)
-- [Python validation of admin.py in news](doc/pep8-news-admin.webp)
-- [Python validation of models.py in news](doc/pep8-news-models.webp)
+- [Python validation of models.py in bookings]()
+- [Python validation of admin.py in news]()
+- [Python validation of models.py in news]()
 
 ### Lighthouse
 
@@ -804,15 +799,15 @@ Tests in Lighthouse were performed for both desktop and mobile.
 
 #### Desktop
 
-![Lighthouse test for desktop](doc/lighthouse-desktop.webp)
+![Lighthouse test for desktop]()
 
-The test for desktop resulted in 98 in both performance and accessibility. It also resulted in 100 in both best practice and SEO.
+The test for desktop resulted in __ in both performance and accessibility. It also resulted in __ in both best practice and SEO.
 
 #### Mobile
 
 ![Lighthouse test for mobile](doc/lighthouse-mobile.webp)
 
-The test for mobile resulted in 91 in performance and the same score for accessibility (98), best practice (100) and SEO (100) as in the desktop test. The relatively low score in performance was partly because of "Largest Contentful Paint element". This was regarding the hero image. The image is small (around 60 kB) and has webp format which eliminates the image itself to be the problem. The part which took the largest time was load delay. This can be caused by Cloudinary, where the images are stored. The time it takes for the Cloudinary server to serve the images, can increase the load delay for the webpage. There are several ways to solve the problem. Since the main problem seems to be Cloudinary, a way to improve is to use another service. It can be GitHub, Amazon S3 or any similar service. If the use of Cloudinary should continue, it could be a good idea to get a paid account to get faster server service.
+The test for mobile resulted in __.
 
 ### Wave Webaim - accessibility testing
 
@@ -820,57 +815,56 @@ The accessibility test at [Wave Webaim](https://wave.webaim.org/) resulted witho
 
 #### Index page
 
-![Wave webaim test of index page](doc/wave-webaim.webp)
+![Wave webaim test of index page]()
 
 #### About page
 
-![Wave webaim test of about page](doc/wave-webaim-about.webp)
+![Wave webaim test of about page]()
 
 #### Booking page
 
-![Wave webaim test of about page](doc/wave-webaim-booking.webp)
+![Wave webaim test of about page]()
 
 ### Contrast Grid
 
 The [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23CACACA%2C%20%20Background%20color%0D%0A%23353535%2C%20Text%0D%0A%23411919%2C%20Cancel%20btn%20-%20background%0D%0A%23FFFFFF%2C%20Cancel%2Fconfirm%2Fdelete%20btn%20-%20text%0D%0A%23193A18%2C%20Confirm%20btn%20-%20background%0D%0A%238d3838%2C%20Delete%20btn%20-%20background%0D%0A%23000000%2C%20Footer%20icons&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) resulted in only AAA results for the combination used on the webpage. The main combination throughout the page is #CACACA and #353535 which has a value of 7.4 (where the limit for AAA is 7+).
 
-![Contrast Grid of the webpage](doc/contrast-grid.webp)
+![Contrast Grid of the webpage]()
 
 ### Automated Testing
 
-Automated testing is done for all three different apps (about, booking and news). In total, 33 tests were made - 8 tests in about, 12 tests in booking and 13 tests in news.
+Automated testing is done for all three different apps (about, booking and testimonials). In total, 33 tests were made - 8 tests in about, 12 tests in booking and 13 tests in news.
 
-![Automated tests for all apps](doc/tests-all.webp)
+![Automated tests for all apps]()
 
 #### About
 
-![Automated tests for about app](doc/tests-about.webp)
+![Automated tests for about app]()
 
-- [Test of forms.py](about/tests_forms.py)
-- [Test of views.py](about/tests_views.py)
+- [Test of forms.py]()
+- [Test of views.py]()
 
 #### Booking
 
-![Automated tests for booking app](doc/tests-booking.webp)
+![Automated tests for booking app]()
 
-- [Test of models.py](booking/tests_models.py)
-- [Test of views.py](booking/tests_views.py)
+- [Test of models.py]()
+- [Test of views.py]()
 
-#### News
+#### Testimonials
 
-![Automated tests for news app](doc/tests-news.webp)
+![Automated tests for news app]()
 
-- [Tests of admin.py](news/tests_admin.py)
-- [Tests of models.py](news/tests_models.py)
-- [Tests of views.py](news/tests_views.py)
+- [Tests of admin.py]()
+- [Tests of models.py]()
+- [Tests of views.py]()
 
 ### Manual Testing
 
 Every page at the website has been manually tested. It is done in Google Chrome DevTools and on different devices. The devices used were one mobile phone, one laptop and one external screen:
 
-- Samsung Galaxy A52s (1080 x 2400)
-- HP 250 G4 Notebook PC (1366 x 768)
-- HP 2309v LCD Screen (1920 x 1080)
+- Fairphone 4 5G (1080 x 2400)
+- Macbook Pro 2020 (1366 x 768)
 
 #### Navigation bar
 
@@ -984,7 +978,7 @@ Every page at the website has been manually tested. It is done in Google Chrome 
 | Available spots - decrease | The available spots in the new session the user chooses, decreases by one | Check available spots at the session, edit the booking, check available spots again | Available spots decreased by one | Pass |
 | Pagination | When it is more than eight available workshops, pagination appears | Scroll down below active bookings buttons | After eight bookings, pagination buttons appears | Pass |
 
-#### News page
+#### Testimonials page
 
 | Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
@@ -1052,18 +1046,7 @@ Every page at the website has been manually tested. It is done in Google Chrome 
 
 During the testing several bugs have been discovered. No bugs were left unfixed.
 
-When the html validation of all pages were completed, it summed up 95 errors. This high amount of errors were caused by repeated errors. The most common error was that the button element had prohibited child element. Both divs and h6 elements were child to buttons. This was corrected before the final version was deployed.
-
-Another validation error that occured at several places were that "hx not allowed on element form". This was solved by adding "data-" in front of the hx. 
-
-A third validation error that was recurring through the different pages was that form action was left empty. This was solved by deleting form action since it wasn't used.
-
-When the PEP8 validation of the Python code was made, 39 errors occured. Most of them were one of following:
-- trailing whitespace
-- line too long
-- blank line contains whitespace
-
-After the first Lighthouse test, the SEO was 90. To enhance this, meta tags with description and keywords were added. This increased the score to 100. 
+When  
 
 ## Technologies Used
 
@@ -1110,7 +1093,7 @@ The code languages used in this project are HTML, CSS, JavaScript and Python. Th
 - Press "Connect"
 - Under "Manual deploy", choose which branch to deploy and press "Deploy Branch"
 
-Link to deployed website: <https://frisa-booking-e7f1e4a00ea9.herokuapp.com/>
+Link to deployed website: <https://_____.herokuapp.com/>
 
 ## Credits
 
@@ -1152,12 +1135,10 @@ Link to deployed website: <https://frisa-booking-e7f1e4a00ea9.herokuapp.com/>
 | [Pixelied](https://pixelied.com/convert) | Convert images to webp |
 | [TinyPNG](https://tinypng.com/) | Compress images |
 
-The profile photo at the about page is taken by Linus Wikell. All other photos are taken by the website creator, [Frida Wikell](https://github.com/FridaWikell).
+The profile photo at the about page is taken by Linus Wikell. All other photos are taken by the website creator, [Luke Maycock](https://github.com/l3wk3m).
 
 ## Acknowledgements
 
-A big thanks to Matt Bodden for invaluable thoughts and ideas in how to get the project going in the right direction!
+A big thanks to my mentor Ronan McLeland for feedback and direction throughout!
 
-Hats off to my proofreading master, Linus Wikell!
-
-[Back to top](#frisa-booking)
+[Back to top](#studiobooker)
