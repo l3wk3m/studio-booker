@@ -19,7 +19,7 @@ The project is to build a website where you as a user can book a space in a loca
       - [Epic 2 - Development of a studio booking system](#epic-2---development-of-a-course-booking-system)
       - [Epic 3 - Development of a contact form](#epic-3---development-of-a-contact-form)
       - [Epic 4 - Enhancing website aesthetics](#epic-4---enhancing-website-aesthetics)
-      - [Epic 5 - Employee workshop news feed](#epic-5---employee-workshop-news-feed)
+      - [Epic 5 - Development of user testimonial system](#epic-5---development-of-user-testimonials)
   - [Design](#design)
     - [Color Scheme](#color-scheme)
     - [Typography](#typography)
@@ -187,9 +187,9 @@ That the form has input validation (e.g., email format)
 
 As a site owner I would like to have a comprehensive, user-friendly booking system, so that users can effortlessly view, create, modify, and cancel bookings for various courses so that the user easy can book courses.
 
-**User Story - Viewing available courses**
+**User Story - Viewing available spaces**
 
-As a registered user I can easily view all available courses so that I can decide which courses to book based on my interests and schedule
+As a registered user I can easily view all available spaces so that I can decide which space to book based on my schedule
 
 - Acceptance Criteria 1  
 Given as a site visitor  
@@ -202,7 +202,7 @@ Then course listing includes essential details such as course title, description
 
 **User Story - Creating a new booking**
 
-As a registered user I can book a course so that I can secure my spot in courses I'm interested in attending
+As a registered user I can book a course so that I can secure my spot in a space I'm interested in
 
 - Acceptance Criteria 1  
 Given that the user is signed in  
@@ -228,7 +228,7 @@ Then the user can view each each booking entry including course details and the 
 
 **User Story - Modifying an existing booking**
 
-As a registered user I can change the date or details of my existing course bookings so that I can adjust my schedule
+As a registered user I can change the date or details of my existing space bookings so that I can adjust my schedule
 
 - Acceptance Criteria 1  
 Given the user has an existing booking  
@@ -372,9 +372,9 @@ Given I am reading the text content on the website
 When I engage with any piece of content (such as about us, services, or blog posts)  
 Then the text should feel like a conversation with a friend, using casual language, jokes, or puns where appropriate, making the reading experience enjoyable and relaxed  
 
-#### Epic 5 - Employee workshop news feed
+#### Epic 5 - Developing User Testimonial functionality
 
-As a site user (employee) I can access the employee workshop news feed so that I can stay informed about workshops and learn from my colleagues' experiences
+As a site user (employee) I can access the user testimonials section so that I can stay informed about workshops and learn from my colleagues' experiences
 
 **User Story - Submitting workshop stories**
 
