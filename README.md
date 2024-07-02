@@ -477,11 +477,9 @@ All the images are chosen to inspire the website users. The images should give a
 
 Three different models were used in the making of the website.
 
-![ERD of Booking Model](doc/erd-booking.webp)
+![ERD of Booking Model]()
 
-![ERD of Course Model](doc/erd-course.webp)
-
-![ERD of CourseSession Model](doc/erd-coursesession.webp)
+![ERD of Testimonial Model]()
 
 ## Features
 
