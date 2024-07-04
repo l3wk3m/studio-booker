@@ -30,10 +30,11 @@ class StudioBooking(models.Model):
     """
     Django database model for available studios
     """
+    artist = models.ForeignKey(Artist, on_delete=models.CASCADE)
     studio = models.ForeignKey(Studios, on_delete=models.CASCADE)
     start_time = models.DateTimeField()
     end_time = models.DateTimeField()
-    availability = models.IntegerField(default=1)
+    availability = models.IntegerField(choices=STATUS, default=1)
 
     def __str__(self):
         formatted_start_time = self.start_time.strftime('%Y-%m-%d %H:%M')
