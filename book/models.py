@@ -15,7 +15,7 @@ class Artist(models.Model):
     def __str__(self):
             return f"{self.first_name + ' ' + self.last_name}"
 
-class Studios(models.Model):
+class Studio(models.Model):
     """
     Django database model for studio spaces
     """
@@ -32,7 +32,7 @@ class StudioBooking(models.Model):
     Django database model for available studios
     """
     artist = models.ForeignKey(Artist, on_delete=models.CASCADE)
-    studio = models.ForeignKey(Studios, on_delete=models.CASCADE)
+    studio = models.ForeignKey(Studio, on_delete=models.CASCADE)
     start_time = models.DateTimeField()
     end_time = models.DateTimeField()
 
