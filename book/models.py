@@ -22,6 +22,7 @@ class Studios(models.Model):
     name = models.CharField(max_length=100)
     description = models.TextField()
     capacity = models.IntegerField()
+    availability = models.IntegerField(choices=STATUS, default=1)
 
     def __str__(self):
         return self.name
@@ -34,7 +35,6 @@ class StudioBooking(models.Model):
     studio = models.ForeignKey(Studios, on_delete=models.CASCADE)
     start_time = models.DateTimeField()
     end_time = models.DateTimeField()
-    availability = models.IntegerField(choices=STATUS, default=1)
 
     def __str__(self):
         formatted_start_time = self.start_time.strftime('%Y-%m-%d %H:%M')
