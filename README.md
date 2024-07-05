@@ -212,63 +212,42 @@ As a registered user I can cancel a booking if I can no longer attend so that I 
 
 - Acceptance Criteria 1  
 Given the user has a booked course  
-When the user visit their booking dashboard  
-Then the user can cancel their booking  
 - Acceptance Criteria 2  
-Given the user has a booked course  
-When the user cancel their booking  
-Then the user get a confirmation in form of a message at the site  
+Given the user has a booked course 
 
 **User Story - Implement modal pop-up confirmations for booking and booking changes**
 
-As a site user I can receive immediate, clear confirmation requests in the form of modal pop-ups whenever I attempt to make any changes to my bookings so that instantly understand the impact of my actions and confirm my intentions in a more interactive and user-friendly manner, avoiding the passive nature of Django's built-in messages
+As a site user I can receive immediate, clear confirmation requests in the form of modal pop-ups whenever I attempt to make any changes to my bookings so that instantly understand the impact of my actions
 
 - Acceptance Criteria 1  
-Given a user is on the booking or booking modification page  
-When the user initiates a new booking or change to an existing booking  
-Then a modal pop-up should immediately appear, confirming the booking or change  
+Given a user is on the booking or booking modification page when the user initiates a new booking or change to an existing booking, a modal pop-up should immediately appear, confirming the booking or change  
 - Acceptance Criteria 2  
-Given a modal pop-up is displayed to the user  
-When the user confirms the proposed action by clicking the "Confirm" button  
-Then the booking should be updated accordingly in the system, and the changes will be visible immediately  
+Given a modal pop-up is displayed to the user, if the user clicks confirm it will confirm the booking / change of booking with the user and update the relevant database models
 - Acceptance Criteria 3  
-Given a modal pop-up is displayed to the user  
-When the user clicks the "Cancel" button to abort the proposed change  
-Then the modal should close without making any modifications to the booking, and the user should remain on the page without any further action taken  
+Given a modal pop-up is displayed to the user when the user clicks the "Cancel" button the modal closes without making any modifications to the booking
 
 #### Epic 3 - Developing User Testimonial functionality
 
-As a site owner I can have a user-friendly contact form so that visitors can easily send messages, inquiries, or feedback directly through our website, enhancing communication and engagement
+As a site owner I can have a user-friendly testimonials section so that visitors can easily send feedback about their experiences if they've booked with Studio Booker before and can see the feedback of previous users
 
 **User Story - Accessing the testimonial form**
 
-As a site user I can easily find and access the contact form from any page on the website so that I can contact the website owner without hassle
+As a site user I can easily find and access the testimonial form from any page on the website so that I am as encouraged to leave feedback as is possible
 
 - Acceptance Criteria 1  
-Given the user is anywhere at the website  
-When the user wants to contact the site owner  
-Then a clear and accessible link to the contact form is available on every page, either in the navigation menu or footer  
+Given the user is anywhere at the website, a clear link to the testimonials page is available on every page, either in the navigation menu or footer  
 - Acceptance Criteria 2  
-Given the user is anywhere at the website  
-When the user tries to reach the contact form  
-Then the contact form page loads efficiently and is mobile-responsive  
 
 **User Story - Submitting a testimonial**
 
-As a site user I can submit messages using the contact form so that I can communicate my inquiries, suggestions, or feedback
+As a site user I can submit a testimonial using the form so that I can communicate my with the studios and this website
 
 - Acceptance Criteria 1  
-Given the user has any questions  
-When the user is trying to use the contact form  
-Then the form includes fields for name, email and message  
+Given the user has any feedback or experience booking with Studio Booker   
 - Acceptance Criteria 2  
-Given the user has any questions  
-When the user is trying to use the contact form  
-Then there is validation for each field to ensure the information is entered correctly  
+
 - Acceptance Criteria 3  
-Given the user has any questions  
-When the user is trying to use the contact form  
-Then a clear "Submit" button sends the message and provides a confirmation to the user that it has been sent  
+
 
 **User Story - Receive confirmation after sending testimonial form**
 
@@ -279,7 +258,7 @@ I should see a confirmation message on the website indicating that my message ha
 
 #### Epic 4 - Enhancing website aesthetics
 
-As a website owner I would like to enhance the visual appeal and user experience of the website so that visitors are more engaged, find the website more trustworthy, and are encouraged to sign up for courses due to an attractive and professional presentation
+As a website owner I would like to enhance the visual appeal and user experience of the website so that visitors are more engaged, find the website more trustworthy, and are encouraged to sign up using my service, due to its sleek presentation
 
 **User Story - Implementing a responsive design**
 
