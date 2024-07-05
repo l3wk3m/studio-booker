@@ -348,9 +348,11 @@ All the images are chosen to
 
 Three different models were used in the making of the website.
 
-![ERD of Booking Model]()
+![ERD of Artist Model](/workspace/studio-booker/docs/images/Artists_ERD.webp)
 
-![ERD of Testimonial Model]()
+![ERD of Studio Model](/workspace/studio-booker/docs/images/Studio_ERD.webp)
+
+![ERD of Studio Model](/workspace/studio-booker/docs/images/StudioBooking_ERD.webp)
 
 ## Features
 
@@ -982,6 +984,8 @@ Link to deployed website: <https://_____.herokuapp.com/>
 | [W3Schools](https://www.w3schools.com/howto/howto_js_read_more.asp) | Base for read more/read less buttons |
 | [django](https://docs.djangoproject.com/) | Knowledge about django |
 | [Emojipedia](https://emojipedia.org/) | Select emojis |
+https://learndjango.com/tutorials/django-testing-tutorial
+| [Learn Django](https://learndjango.com/tutorials/django-testing-tutorial) | Learn Django's page on testing |
 
 ### Images
 
