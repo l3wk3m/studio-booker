@@ -186,35 +186,25 @@ As a site user, the studios list includes crucial details, such as the studio's 
 As a Site User I can book a studio so that I can secure my exclusive place
 
 - Acceptance Criteria 1  
-Given that the user is signed in  
-When the user is visiting the booking page  
-Then a clear "Book Now" button is available for courses with available spots  
+As a Site User I can visit the booking page and view a "Book" button next to / within my desired studio / time slot 
 - Acceptance Criteria 2
-Given that the user is signed in  
-When the user is visiting the booking page  
-Then the booking process collects necessary user information and confirms the booking  
+As a Site User I can click the "Book" button and recieve confirmation of my choice of studio
 
 **User Story - Viewing my bookings**
 
-As a registered user I can view a list of my current course bookings so that I can manage my schedule and review the courses I'm enrolled in
+As a Site User I can view a list of my current bookings so that I can manage my schedule and review the studio I'm booked into
 
 - Acceptance Criteria 1  
-Given the user has enrolled at a course  
-When the user visit the personal dashboard  
-Then the user can view their bookings  
+Given the user has a booked studio associate with their account, the user can view their currently booked studios  
 - Acceptance Criteria 2  
-Given the user has enrolled at a course  
-When the user visit the personal dashboard  
-Then the user can view each each booking entry including course details and the booked date  
+Given the user has a booked studio associate with their account, they can view the details of any currently booked studios, including date, time, studio name, studio description
 
 **User Story - Modifying an existing booking**
 
-As a registered user I can change the date or details of my existing space bookings so that I can adjust my schedule
+As a Site User / Admin I can change the date or details of my existing studio bookings so that I can adjust my schedule
 
 - Acceptance Criteria 1  
-Given the user has an existing booking  
-When the user is signed in  
-Then the user can modify bookings in the user's booking dashboard  
+Given the site user has an existing booking, they can modify their bookings via the 'My Bookings' page
 
 **User Story - Cancelling a booking**
 
@@ -250,7 +240,7 @@ Then the modal should close without making any modifications to the booking, and
 
 As a site owner I can have a user-friendly contact form so that visitors can easily send messages, inquiries, or feedback directly through our website, enhancing communication and engagement
 
-**User Story - Accessing the contact form**
+**User Story - Accessing the testimonial form**
 
 As a site user I can easily find and access the contact form from any page on the website so that I can contact the website owner without hassle
 
@@ -263,7 +253,7 @@ Given the user is anywhere at the website
 When the user tries to reach the contact form  
 Then the contact form page loads efficiently and is mobile-responsive  
 
-**User Story - Submitting a message**
+**User Story - Submitting a testimonial**
 
 As a site user I can submit messages using the contact form so that I can communicate my inquiries, suggestions, or feedback
 
@@ -280,14 +270,12 @@ Given the user has any questions
 When the user is trying to use the contact form  
 Then a clear "Submit" button sends the message and provides a confirmation to the user that it has been sent  
 
-**User Story - Receive confirmation after sending contact form**
+**User Story - Receive confirmation after sending testimonial form**
 
-As a site user I can receive immediate confirmation that my message has been sent successfully when I submit the contact form so that I am assured my message has been received and will be addressed
+As a site user I can receive immediate confirmation that my testimonial has been sent successfully when I submit the form so that I am assured my testimonial has been received
 
 - Acceptance Criteria 1  
-Given I am a website visitor on the contact page  
-When I fill out the contact form with my information and submit it  
-Then I should see a confirmation message on the website indicating that my message has been sent successfully  
+I should see a confirmation message on the website indicating that my message has been sent successfully  
 
 #### Epic 4 - Enhancing website aesthetics
 
@@ -295,37 +283,25 @@ As a website owner I would like to enhance the visual appeal and user experience
 
 **User Story - Implementing a responsive design**
 
-As a site user I can easily navigate and view content so that I can use any device, whether it's a desktop, tablet, or smartphone, ensuring a seamless experience
+As a site user I can easily navigate and view content so that I can use any device, whether it's a desktop, tablet, or smartphone
 
 - Acceptance Criteria 1  
-Given the user is visiting the site  
-When the user is using different devices  
-Then the website automatically adjusts its layout based on the screen size and orientation  
+Given the user is visiting the site the website automatically adjusts its layout based on the screen size and orientation regardless of the device being used
 - Acceptance Criteria 2  
-Given the user is visiting the site  
-When the user is using different devices  
-Then all elements, including text, images, and buttons, are easily readable and accessible on various devices  
+Given the user is 
 - Acceptance Criteria 3  
-Given the user is visiting the site  
-When the user is using different devices  
-Then navigation menus are optimized for touch interactions on mobile devices   
+Given the user is  
 
-**User Story - Utilizing modern, attractive fonts and color scheme**
+**User Story - Using appealing fonts and color scheme**
 
-As a site user I can visit the website with modern, attractive fonts and a cohesive color scheme so that eading and interacting with the site is a pleasant experience, contributing to the overall aesthetic appeal and professionalism
+As a site user I can visit the website with appealing fonts and a cohesive color scheme so that 
 
 - Acceptance Criteria 1  
-Given the user doesn't only use screen reader  
-When the user visits the website  
-Then the website adopts a consistent set of fonts that are easy to read and visually appealing  
+Given the user doesn't only use screen reader 
 - Acceptance Criteria 2  
-Given the user doesn't only use screen reader  
-When the user visits the website  
-Then a color scheme is chosen that reflects the brand and enhances readability, with sufficient contrast between text and background colors  
+Given the user doesn't only use screen reader
 - Acceptance Criteria 3  
-Given the user doesn't only use screen reader  
-When the user visits the website  
-Then text styling is consistent throughout the website  
+Given the user doesn't only use screen reader
 
 
 ## Design
