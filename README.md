@@ -138,24 +138,17 @@ One of the user goals is to be able to book __________. The user should also hav
 
 ### Site Owner Goals
 
-The site owner goal is to get more bookings to the hosted workshops.
+The site owner goal is to facilitate the frictionless booking of studio spaces for local artists.
 
 ### User Stories
 
-For the project, five different Epics were created. To them, a total of ____ user stories were created. To view all user stories, they are viewable at the [Projects board](). All user stories were assigned one of the following classes; Must have, Should have, Could have or Won't have. Each of the user stories were also assigned points depending on how much time they were estimated to take.
+For the project, four different Epics were created. To them, a total of ____ user stories were created. To view all user stories, they are viewable at the [Projects board](). All user stories were assigned one of the following classes; Must have, Should have, Could have or Won't have. 
 
-| Class | Points | Percentage of total points |
-| -------------- | --------- | --------------- |
-| Must have |  p |  % |
-| Should have |  p |  % |
-| Could have |  p |  % |
-| Won't have |  p |  % |
-
-The following user stories were completed within the first release of Studio Booker. To view the Won't have, they are listed in the [Project board]().
+The following user stories were completed within the first release of Studio Booker.
 
 #### Epic 1 - User account creation process
 
-As a site owner, I would like to enable a seamless, secure, and user-friendly account creation process for new users, so that they can efficiently transition from sign-up to verification and initial login, ultimately engaging with the platform's features smoothly.
+As a site owner, I would like to create a sign-up process that is intuitive and gets the user able to book studio spaces as soon as possible.
 
 **User Story - Accessing the sign-up page**
 
@@ -183,7 +176,7 @@ Given the user isn't signed in
 When the user is filling out the sign up form  
 That the form has input validation (e.g., email format)
 
-#### Epic 2 - Development of a course booking system
+#### Epic 2 - Development of a studio booking system
 
 As a site owner I would like to have a comprehensive, user-friendly booking system, so that users can effortlessly view, create, modify, and cancel bookings for various courses so that the user easy can book courses.
 
@@ -265,7 +258,7 @@ Given a modal pop-up is displayed to the user
 When the user clicks the "Cancel" button to abort the proposed change  
 Then the modal should close without making any modifications to the booking, and the user should remain on the page without any further action taken  
 
-#### Epic 3 - Development of a contact form
+#### Epic 3 - Developing User Testimonial functionality
 
 As a site owner I can have a user-friendly contact form so that visitors can easily send messages, inquiries, or feedback directly through our website, enhancing communication and engagement
 
@@ -327,24 +320,7 @@ Then all elements, including text, images, and buttons, are easily readable and 
 - Acceptance Criteria 3  
 Given the user is visiting the site  
 When the user is using different devices  
-Then navigation menus are optimized for touch interactions on mobile devices  
-
-**User Story - Uploading high-quality images for courses**
-
-As a site owner I can upload high-quality images for each course so that visitors are visually attracted to the courses and can make informed decisions to sign up, enhancing course appeal through professional and engaging imagery.
-
-- Acceptance Criteria 1  
-Given the site owner have high-quality images  
-When the site owner wants to draw attention to the different courses  
-Then the website provides an interface for administrators to upload, edit, and associate images with specific courses  
-- Acceptance Criteria 2  
-Given the site owner have high-quality images  
-When the site owner wants to draw attention to the different courses  
-Then the uploaded images are automatically resized and optimized for web use without compromising quality  
-- Acceptance Criteria 3  
-Given the site owner have high-quality images  
-When the site owner wants to draw attention to the different courses  
-Then each course section displays its associated image prominently, with clear, high-resolution visuals  
+Then navigation menus are optimized for touch interactions on mobile devices   
 
 **User Story - Utilizing modern, attractive fonts and color scheme**
 
@@ -371,45 +347,6 @@ As a website owner I can incorporate text content throughout my website that is 
 Given I am reading the text content on the website  
 When I engage with any piece of content (such as about us, services, or blog posts)  
 Then the text should feel like a conversation with a friend, using casual language, jokes, or puns where appropriate, making the reading experience enjoyable and relaxed  
-
-#### Epic 5 - Developing User Testimonial functionality
-
-As a site user (employee) I can access the user testimonials section so that I can stay informed about workshops and learn from my colleagues' experiences
-
-**User Story - Submitting workshop stories**
-
-As a site user (employee) I can submit stories about the workshops I have held so that share my experiences and insights with my colleagues.
-
-- Acceptance criteria 1  
-Given the user is logged in and has held a workshop  
-When the user navigates to the employees page and fills in the story submission form with details about the workshop (title, content, etc.) and submits it  
-Then the story is published to the news feed  
-- Acceptance criteria 2  
-Given the user has filled in the submission form but left some mandatory fields empty  
-When the user attempts to submit the form  
-Then an error message is displayed, and the submission is not processed until all mandatory fields are filled  
-
-**User Story - Reading workshop stories**
-
-As a site user (employee) I can read stories about workshops submitted by my colleagues so that I can learn from their experiences
-
-- Acceptance Criteria 1  
-Given the user is logged in  
-When the user navigates to the news feed  
-Then the user can see a list of published workshop stories  
-
-**User Story - Deleting own post**
-
-As a site user (employeer) I can delete my own posts on the employee workshop news feed so that I can remove content that I no longer wish to share or that has become outdated
-
-- Acceptance Criteria 1  
-Given the user is logged in and viewing their own post on the employee workshop news feed  
-When the user selects the option to delete their post  
-Then the system prompts the user to confirm the deletion to prevent accidental removal  
-- Acceptance Criteria 2  
-Given the user confirms the deletion of their post  
-When the deletion process is initiated  
-Then the post is permanently removed from the news feed, and the user receives a confirmation message that their post has been successfully deleted  
 
 ## Design
 

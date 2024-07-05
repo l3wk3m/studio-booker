@@ -6,7 +6,7 @@ STATUS = ((0, "Unavailable"), (1, "Available"))
 # Create your models here.
 # Artist model extending base user model
 class Artist(models.Model):
-    user = models.OneToOneField(User, null=True, on_delete=models.CASCADE)
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
     first_name = models.CharField(max_length=20, null=True, blank=True)
     last_name = models.CharField(max_length=20, null=True, blank=True)
     email = models.EmailField(null=True, blank=True)
@@ -35,6 +35,7 @@ class StudioBooking(models.Model):
     studio = models.ForeignKey(Studio, on_delete=models.CASCADE)
     start_time = models.DateTimeField()
     end_time = models.DateTimeField()
+    created_on = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         formatted_start_time = self.start_time.strftime('%Y-%m-%d %H:%M')
