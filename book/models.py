@@ -9,7 +9,7 @@ class Artist(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     first_name = models.CharField(max_length=20, null=True, blank=True)
     last_name = models.CharField(max_length=20, null=True, blank=True)
-    email = models.OneToOneField(User, on_delete=models.CASCADE)
+    email = models.EmailField(User, on_delete=models.CASCADE)
     contact_phone = models.CharField(max_length=15, null=True, blank=True)
     
     def __str__(self):
