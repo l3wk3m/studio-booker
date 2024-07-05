@@ -348,11 +348,11 @@ All the images are chosen to
 
 Three different models were used in the making of the website.
 
-![ERD of Artist Model](/workspace/studio-booker/docs/images/Artists_ERD.webp)
+![ERD of Artist Model](docs/images/Artists_ERD.webp)
 
-![ERD of Studio Model](/workspace/studio-booker/docs/images/Studio_ERD.webp)
+![ERD of Studio Model](docs/images/Studio_ERD.webp)
 
-![ERD of Studio Model](/workspace/studio-booker/docs/images/StudioBooking_ERD.webp)
+![ERD of Studio Model](docs/images/StudioBooking_ERD.webp)
 
 ## Features
 
