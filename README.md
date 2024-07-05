@@ -4,7 +4,7 @@
 
 ## Introduction
 
-The project is to build a website where you as a user can book a space in a local art studio. If the user doesn't visit the website with the goal to book a workshop right away, the website should work as an inspiration.
+The project is to build a website where you as a user can book a space in a local art studio. If the user doesn't visit the website with the goal to book a studio space right away, the website should work as an inspiration.
 
 ## Table of Contents
 
@@ -53,8 +53,8 @@ The project is to build a website where you as a user can book a space in a loca
       - [Testimonial form](#testimonial-form)
       - [Testimonial form response](#testimonial-form-response)
     - [Booking page](#booking-page-1)
-      - [Workshop presentation](#workshop-presentation)
-      - [Workshop booking](#workshop-booking)
+      - [Studio presentation](#studio-presentation)
+      - [Studio booking](#studio-booking)
       - [Booking pagination](#booking-pagination)
       - [Confirm booking modal](#confirm-booking-modal)
       - [Double booked modal](#double-booked-modal)
@@ -65,13 +65,13 @@ The project is to build a website where you as a user can book a space in a loca
       - [No bookings - text](#no-bookings---text)
       - [No bookings - button](#no-bookings---button)
       - [Active bookings - text](#active-bookings---text)
-      - [Active bookings - booked workshops](#active-bookings---booked-workshops)
+      - [Active bookings - booked studios](#active-bookings---booked-studios)
       - [Active bookings pagination](#active-bookings-pagination)
       - [Confirm cancellation modal](#confirm-cancellation-modal)
     - [Edit booking page](#edit-booking-page-1)
-      - [Available workshops](#available-workshops)
-      - [Available workshops pagination](#available-workshops-pagination)
-      - [Confirm workshop change modal](#confirm-workshop-change-modal)
+      - [Available studios](#available-studios)
+      - [Available studios pagination](#available-studios-pagination)
+      - [Confirm studio change modal](#confirm-studio-change-modal)
     - [News page](#news-page)
     - [Sign up page](#sign-up-page-1)
     - [Sign in page](#sign-in-page-1)
@@ -434,7 +434,7 @@ If the user is visiting the index page without being signed in, there is a sign 
 
 .
 
-### Booking page
+### Studios page
 
 #### Studio Space Presentation
 
@@ -500,7 +500,7 @@ When the user doesn't have any active bookings, a text informs the user about it
 
 When the user has at least one booking, 
 
-#### Active bookings - booked workshops
+#### Active bookings - booked studios
 
 ![The user bookings are presented]()
 
@@ -534,7 +534,7 @@ If there are more than eight available studios to select from, pagination appear
 
 #### Confirm studio change modal
 
-![Confirmation modal to ensure the user wants to change their workshop booking]()
+![Confirmation modal to ensure the user wants to change their studio booking]()
 
 The confirmation modal ensures that the user wants to edit their booking to the selected .
 
@@ -755,7 +755,7 @@ Every page at the website has been manually tested. It is done in Google Chrome 
 | Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
 | Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The index page was responsive and changed depending on screen size | Pass |
-| "Check out available workshops" button | Directs the user to the Booking page | Click at the "Check out available workshops" button | Got directed to the Booking page | Pass |
+| "Check out available studios" button | Directs the user to the Booking page | Click at the "Check out available studios" button | Got directed to the Booking page | Pass |
 | Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
 | Sign up button visible (not signed in) | The sign up button below member benefits is visible when the user isn't signed in | Sign out and check below member benefits | Sign up button is visible | Pass |
 | Sign up button not visible (signed in) | The sign up button below member benefits is not visible when the user is signed in | Sign in and check below member benefits | Sign up button isn't visible | Pass |
@@ -779,21 +779,17 @@ Every page at the website has been manually tested. It is done in Google Chrome 
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
 | Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The booking page was responsive and changed depending on screen size | Pass |
 | Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
-| Read more button - Perler beads | The text about Perler beads workshop expands and shows more text when the "Read more" button is pressed | Press "Read more" in the Perler beads card | The text expanded and showed more text | Pass |
-| Read less button - Perler beads | The expanded text about Perler beads workshop goes back to "normal" when the "Read less" button is pressed | Press "Read less" in the Perler beads card | The text collapsed and went back to normal | Pass |
-| Read more button - Transforming treasures | The text about Transforming treasures workshop expands and shows more text when the "Read more" button is pressed | Press "Read more" in the Transforming treasures card | The text expanded and showed more text | Pass |
-| Read less button - Transforming treasures | The expanded text about Transforming treasures workshop goes back to "normal" when the "Read less" button is pressed | Press "Read less" in the Transforming treasures card | The text collapsed and went back to normal | Pass |
-| Read more button - Our ultimate crafting experience | The text about Our ultimate crafting experience workshop expands and shows more text when the "Read more" button is pressed | Press "Read more" in the Our ultimate crafting experience card | The text expanded and showed more text | Pass |
-| Read less button - Our ultimate crafting experience | The expanded text about Our ultimate crafting experience workshop goes back to "normal" when the "Read less" button is pressed | Press "Read less" in the Our ultimate crafting experience card | The text collapsed and went back to normal | Pass |
+| Read more button | The text about the stuido expands and shows more text when the "Read more" button is pressed | Press "Read more" in the studio card | The text expanded and showed more text | Pass |
+| Read less button | The expanded text about Perler beads studio goes back to "normal" when the "Read less" button is pressed | Press "Read less" in the studio card | The text collapsed and went back to normal | Pass |
 | Booking buttons - trigger modal | When a booking button is pressed, a confirmation modal is triggered | Click all booking buttons | All booking buttons triggered a confirmation modal | Pass |
 | Confirmation modal - X | When the X at the confirmation modal is pressed, the modal is closed without making any booking | Trigger confirmation modal, press X | The modal closed without making any booking | Pass |
 | Confirmation modal - Close | When the "Close" button at the confirmation modal is pressed, the modal is closed without making any booking | Trigger confirmation modal, press "Close" | The modal closed without making any booking | Pass |
 | Confirmation modal - outside modal | When the user clicks anywhere outside of the confirmation modal, it is closed without making any booking | Trigger confirmation modal, click somewhere outside of the modal | The modal closed without making any booking | Pass |
 | Confirmation modal - Confirm | When the "Confirm" button is pressed, a booking is made | Press "Confirm", check "My bookings" if a booking has been made | A booking was made | Pass |
 | Confirmation modal - Confirm | When the "Confirm" button is pressed, the user gets redirected to Success page | Press "Confirm" | The user got directed to the Success page | Pass |
-| Pagination | When it is more than eight upcoming workshops, pagination appears | Scroll down below active bookings buttons | After eight bookings, pagination buttons appears | Pass |
+| Pagination | When it is more than 20 studios, pagination appears | Scroll down below active bookings buttons | After eight bookings, pagination buttons appears | Pass |
 | Pagination - stay at bookings buttons section | When you change between the pages of active booking buttons, you come to the top of the booking buttons | Change page using pagination | When next button is pressed, the second page is showed and scrolled to the top of booking buttons | Pass |
-| Double booking modal | When a user tries to book a workshop session they already has a booking at, a Booking notice modal is triggered | Try to book a workshop where an active booking already exists | A modal is triggered when the user tries to double book | Pass |
+| Double booking modal | When a user tries to book a studio session they already has a booking at, a Booking notice modal is triggered | Try to book a studio where an active booking already exists | A modal is triggered when the user tries to double book | Pass |
 | Double booking modal - X | When the X at the double booking modal is pressed, the modal is closed without making any booking | Trigger double booking modal, press X | The modal closed without making any booking | Pass |
 | Double booking modal - Close | When the "Close" button at the double booking modal is pressed, the modal is closed without making any booking | Trigger double booking modal, press "Close" | The modal closed without making any booking | Pass |
 
@@ -804,7 +800,7 @@ Every page at the website has been manually tested. It is done in Google Chrome 
 | Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
 | Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
 | View my bookings button | The "View my bookings" button directs the user to My bookings page | Click at "View my bookings" button | The user got directed to the My bookings page | Pass |
-| Book another workshop button | The "Book another workshop" button directs the user to Bookings page - booking buttons section | Click at "Book another workshop" | The user got directed to the Booking page, booking buttons section | Pass |
+| Book another studio button | The "Book another studio" button directs the user to Bookings page - booking buttons section | Click at "Book another studio" | The user got directed to the Booking page, booking buttons section | Pass |
 | Home button - not visible | On devices smaller than 768px (breakpoint below medium in Bootstrap), the "Home" button is not visible | Select breakpoint smaller than medium and view the page | The "Home" button is not visible | Pass |
 | Home button - visible | On devices with 768px or larger (breakpoint medium or larger in Bootstrap), the "Home" button is visible | Select medium breakpoint and view the page | The "Home" button is visible | Pass |
 
@@ -822,8 +818,8 @@ Every page at the website has been manually tested. It is done in Google Chrome 
 | Confirmation modal - Close | When the "Close" button at the confirmation modal is pressed, the modal is closed without cancelling the booking | Trigger confirmation modal, press "Close" | The modal closed without cancelling the booking | Pass |
 | Confirmation modal - outside modal | When the user click anywhere outside of the confirmation modal, it is closed without cancelling the booking | Trigger confirmation modal, click somewhere outside of the modal | The modal closed without cancelling the booking | Pass |
 | Confirmation modal - Confirm | When the "Confirm" button is pressed, the booking is cancelled | Trigger confirmat modal, press "Confirm", check "My bookings" if the booking has been cancelled | The booking was cancelled | Pass |
-| Available spots increase | When a booking is cancelled, available spots are increased by one | Check available spots at an already booked workshop, cancel the booking and check available spots again | Available spots increased by one | Pass |
-| Pagination | When it is more than four upcoming workshops, pagination appears | Scroll down below my bookings buttons | After four bookings, pagination buttons appears | Pass |
+| Available spots increase | When a booking is cancelled, available spots are increased by one | Check available spots at an already booked studio, cancel the booking and check available spots again | Available spots increased by one | Pass |
+| Pagination | When it is more than 12 upcoming studio, pagination appears | Scroll down below my bookings buttons | After four bookings, pagination buttons appears | Pass |
 | No bookings - text | A text about no bookings were found appears at the top of the page | Cancel all the user's bookings | No bookings were found text appeared | Pass |
 | No bookings - Take me there button | The "Take me there" button directs the user to booking page | Click at "Take me there" button | The user got directed to booking page | Pass |
 
@@ -833,15 +829,15 @@ Every page at the website has been manually tested. It is done in Google Chrome 
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
 | Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
 | Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
-| Available workshop sessions | Only sessions where the user doesn't already have an active booking is shown | Compare upcoming workshops, the user's active bookings and the available sessions in edit booking | Only sessions where the user doesn't have an active booking are visible | Pass |
+| Available studios | Only sessions where the user doesn't already have an active booking is shown | Compare upcoming studio availability, the user's active bookings and the available sessions in edit booking | Only sessions where the user doesn't have an active booking are visible | Pass |
 | Booking buttons - trigger modal | When a booking button is pressed, a confirmation modal is triggered | Click all booking buttons | All booking buttons triggered a confirmation modal | Pass |
 | Confirmation modal - X | When the X at the confirmation modal is pressed, the modal is closed without making any booking | Trigger confirmation modal, press X | The modal closed without making any booking | Pass |
 | Confirmation modal - Close | When the "Close" button at the confirmation modal is pressed, the modal is closed without making any booking | Trigger confirmation modal, press "Close" | The modal closed without making any booking | Pass |
 | Confirmation modal - outside modal | When the user click anywhere outside of the confirmation modal, it is closed without making any booking | Trigger confirmation modal, click somewhere outside of the modal | The modal closed without making any booking | Pass |
-| Confirmation modal - Confirm | When the "Confirm" button is pressed, the existing booking is changed to the selected workshop session | Trigger confirmation modal, press "Confirm", check "My bookings" if the booking has been changed | The booking was changed | Pass |
+| Confirmation modal - Confirm | When the "Confirm" button is pressed, the existing booking is changed to the selected studio session | Trigger confirmation modal, press "Confirm", check "My bookings" if the booking has been changed | The booking was changed | Pass |
 | Available spots - increase | In the session the user cancel their booking, available spots increases by one | Check available spots at the session, edit the booking, check available spots again | Available spots increased by one | Pass |
 | Available spots - decrease | The available spots in the new session the user chooses, decreases by one | Check available spots at the session, edit the booking, check available spots again | Available spots decreased by one | Pass |
-| Pagination | When it is more than eight available workshops, pagination appears | Scroll down below active bookings buttons | After eight bookings, pagination buttons appears | Pass |
+| Pagination | When it is more than 20 available studios, pagination appears | Scroll down below active bookings buttons | After eight bookings, pagination buttons appears | Pass |
 
 #### Testimonials page
 
