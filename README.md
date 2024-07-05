@@ -50,8 +50,8 @@ The project is to build a website where you as a user can book a space in a loca
     - [About page](#about-page-1)
       - [Profile image](#profile-image)
       - [About text](#about-text)
-      - [Contact form](#contact-form)
-      - [Contact form response](#contact-form-response)
+      - [Testimonial form](#testimonial-form)
+      - [Testimonial form response](#testimonial-form-response)
     - [Booking page](#booking-page-1)
       - [Workshop presentation](#workshop-presentation)
       - [Workshop booking](#workshop-booking)
@@ -420,15 +420,15 @@ If the user is visiting the index page without being signed in, there is a sign 
 
 .
 
-#### Contact form
+#### Testimonial form
 
-![The contact form at the about page]()
+![The testimonial form at the about page]()
 
 .
 
-#### Contact form response
+#### Testimonials Form
 
-![The response after submitting the contact form]()
+![The response after submitting the testimonials form]()
 
 .
 
@@ -436,13 +436,13 @@ If the user is visiting the index page without being signed in, there is a sign 
 
 #### Studio Space Presentation
 
-![The three different workshops are presented]()
+![The different studios are presented]()
 
-The three different .
+The different are listed in a grid format and colour-coded using bootstrap's functionality.
 
-#### Space booking
+#### Studio booking
 
-![The booking section where the user can select which session they are interested in](doc/workshop-booking.webp)
+![The booking section where the user can select which studio they are interested in]()
 
 .
 
@@ -474,9 +474,9 @@ After a successful booking, a text that confirm the booking appears.
 
 #### Navigation buttons
 
-![Three navigation buttons; "View my bookings", "Home" and "Book another space"]()
+![Three navigation buttons; "View my bookings", "Home" and "Book another studio"]()
 
-Under the confirmation text, three navigation buttons are visible; "View my bookings", "Home" and "Book another space". On smaller devices, only "View my bookings" and "Book another space" are visible. These buttons are there to make the user to stay at the website after a successful booking.
+Under the confirmation text, three navigation buttons are visible; "View my bookings", "Home" and "Book another studio". On smaller devices, only "View my bookings" and "Book another studio" are visible. These buttons are there to make the user to stay at the website after a successful booking.
 
 ### My bookings page
 
@@ -502,7 +502,7 @@ When the user has at least one booking,
 
 ![The user bookings are presented]()
 
-The user bookings are presented so that the booking that is next in time appears first. Each booked space card has an Edit button and a Cancel button. When the Edit button is pressed, the user gets directed to the edit booking page. When the Cancel button is pressed, a confirmation modal is triggered. These two buttons allows the user to edit and delete the booked session if the user has to change their plans.
+The user bookings are presented so that the booking that is next in time appears first. Each booked studio card has an Edit button and a Cancel button. When the Edit button is pressed, the user gets directed to the edit booking page. When the Cancel button is pressed, a confirmation modal is triggered. These two buttons allows the user to edit and delete the booked session if the user has to change their plans.
 
 #### Active bookings pagination
 
@@ -518,19 +518,19 @@ When the user presses the Cancel button in their active bookings, a confirm canc
 
 ### Edit booking page
 
-#### Available Spaces
+#### Available Studios
 
-![All available spaces presented as booking buttons]()
+![All available studios presented as booking buttons]()
 
-All available spaces are presented in a  .
+All available studios are presented in a  .
 
-#### Available Spaces Pagination
+#### Available Studios Pagination
 
-![Available Spaces Pagination]()
+![Available Studios Pagination]()
 
-If there are more than eight available spaces to select from, pagination appears. This is to enhance the user experience, to avoid scrolling through a wall of available spaces.
+If there are more than eight available studios to select from, pagination appears. This is to enhance the user experience, to avoid scrolling through a wall of available studios.
 
-#### Confirm space change modal
+#### Confirm studio change modal
 
 ![Confirmation modal to ensure the user wants to change their workshop booking]()
 
@@ -580,11 +580,11 @@ The text at the 500 page explains to the user that the server isn't working as i
 
 ![The tips of what to do when a 500 page is rendered]()
 
-The tips suggests to the user what they can do; refresh the page, go back to the homepage or send the website owner an email. The suggestion about going back to the homepage is provided with a link to the homepage. The suggestion about sending an email is provided with a link to the contact form.
+The tips suggests to the user what they can do; refresh the page or go back to the homepage. The suggestion about going back to the homepage is provided with a link to the homepage.
 
 ### Footer
 
-![Footer with developers name and year to the left and links to the Contact form and connecting Facebook, Instagram and Pinterest accounts]()
+![Footer with developers name and year to the left and links to the Testimoial form and connecting Facebook, Instagram and Pinterest accounts]()
 
 .
 
@@ -592,13 +592,7 @@ The tips suggests to the user what they can do; refresh the page, go back to the
 
 Several features can be added in the future.
 
-- Select if you as a user want to have a notification a couple of days before it is time for the workshop.
-- Be able to select how many spots you want to book at each workshop.
-- Include an online shop were you could buy some upcycled things created by the owner.
-- Implement a review section where the user who has been at the workshops can write reviews.
-- Sign in with Social media account or Google credentials.
-- Captcha verification when the user is signing up with email address.
-- Guidance when a user sign in for the first time.
+- 
 
 ## Testing
 
@@ -773,9 +767,9 @@ Every page at the website has been manually tested. It is done in Google Chrome 
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
 | Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The about page was responsive and changed depending on screen size | Pass |
 | Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
-| Contact form validation | A message appears if the user doesn't fill out all fields | Fill out all fields except one, let all different fields (First name, Last name, Email and Message) be the empty field one by one | A message appears when a field is left empty | Pass |
-| Contact form response | Response appears, confirming to the user that the form has been sent | Fill out the form with valid input and press Submit | The contact form changed into a message confirming that the message has been sent | Pass |
-| Contact form message recieved | The submitted form is sent to selected inbox in Mailtrap | Fill out the form with valid input and press Submit, log in to Mailtrap and view selected inbox | The message from the contact form are sent to Mailtrap | Pass |
+| __ form validation | A message appears if the user doesn't fill out all fields | Fill out all fields except one, let all different fields (First name, Last name, Email and Message) be the empty field one by one | A message appears when a field is left empty | Pass |
+| testimoial form response | Response appears, confirming to the user that the form has been sent | Fill out the form with valid input and press Submit | The testimoial form changed into a message confirming that the message has been sent | Pass |
+| Testimonial form message recieved | The submitted form is sent to selected inbox in Mailtrap | Fill out the form with valid input and press Submit, log in to Mailtrap and view selected inbox | The message from the testimonial form are sent to Mailtrap | Pass |
 
 #### Booking page
 		
@@ -895,21 +889,21 @@ Every page at the website has been manually tested. It is done in Google Chrome 
 
 | Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
-| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
-| Link to homepage | When the link to the homepage is clicked, the user gets directed to the homepage | Click at homepage link | The user got directed to the homepage | Pass |
-| Link to contact form | When the link to the contact form is clicked, the user gets directed to the contact form | Click at the link to the contact form | The user got directed to the contact form | Pass | 
+| Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | __ |
+| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | __ |
+| Link to homepage | When the link to the homepage is clicked, the user gets directed to the homepage | Click at homepage link | The user got directed to the homepage | __ |
+| Link to testimoial form | When the link to the testimoial form is clicked, the user gets directed to the testimoial form | Click at the link to the testimoial form | The user got directed to the testimoial form | __ | 
 
 #### Footer
 
 | Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| Responsive design | The footer changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The footer was responsive and changed depending on screen size | Pass |
-| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
-| Link to contact form | When the pencil icon is clicked, the user gets directed to the contact form | Click at the pencil icon | The user got directed to the contact form | Pass |
-| Link to Facebook | When the Facebook icon is clicked, the user gets directed to Facebook which opens in a new tab | Click at the Facebook icon | The user got directed to Facebook which opens in a new tab | Pass |
-| Link to Instagram | When the Instagram icon is clicked, the user gets directed to Instagram which opens in a new tab | Click at the Instagram icon | The user got directed to Instagram which opens in a new tab | Pass |
-| Link to Pinterest | When the Pinterest icon is clicked, the user gets directed to Pinterest which opens in a new tab | Click at the Pinterest icon | The user got directed to Pinterest which opens in a new tab | Pass |
+| Responsive design | The footer changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The footer was responsive and changed depending on screen size | ___ |
+| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | __ |
+| Link to testimonial form | When the pencil icon is clicked, the user gets directed to the testimonial form | Click at the icon | The user got directed to the testimonial form | __ |
+| Link to Facebook | When the Facebook icon is clicked, the user gets directed to Facebook which opens in a new tab | Click at the Facebook icon | The user got directed to Facebook which opens in a new tab | __ |
+| Link to Instagram | When the Instagram icon is clicked, the user gets directed to Instagram which opens in a new tab | Click at the Instagram icon | The user got directed to Instagram which opens in a new tab | __ |
+| Link to Pinterest | When the Pinterest icon is clicked, the user gets directed to Pinterest which opens in a new tab | Click at the Pinterest icon | The user got directed to Pinterest which opens in a new tab | __ |
 
 ### Bugs
 
@@ -973,7 +967,6 @@ Link to deployed website: <https://_____.herokuapp.com/>
 | django-allauth | Used for authentication, registration and account management |
 | django-summernote | Integrated editor in djangos admin panel |
 | gunicorn | Used to run Python web applications |
-| htmx | Used for response in contact form |
 | oauthlib | Used to implement OAuth functionality |
 | sendgrid | For interacting with the SendGrid email service |
 | urllib3 | Used to make HTTP requests |
@@ -984,12 +977,9 @@ Link to deployed website: <https://_____.herokuapp.com/>
 | Page | Used for |
 | --------------| ----------------- |
 | [Djecrety](https://djecrety.ir/) | Generate a secret key |
+| [Frida Wikell](https://github.com/FridaWikell/frisa-booking) | For the ReadMe format |
 | [Font Awesome](https://fontawesome.com/) | All icons at the website |
-| [Code with Stein](https://github.com/SteinOveHelset/contactform) | Creating contact form |
-| [Flavio Copes](https://flaviocopes.com/how-to-add-event-listener-multiple-elements-javascript/) | How to add event listener to multiple elements |
 | [W3Schools](https://www.w3schools.com/howto/howto_js_read_more.asp) | Base for read more/read less buttons |
-| [Medium](https://medium.com/@biswajitpanda973/django-model-relationships-11ef9d73168d ) | Knowledge about double underscore |
-| [htmx](https://htmx.org/docs/ ) | Knowledge about htmx |
 | [django](https://docs.djangoproject.com/) | Knowledge about django |
 | [Emojipedia](https://emojipedia.org/) | Select emojis |
 
@@ -997,14 +987,12 @@ Link to deployed website: <https://_____.herokuapp.com/>
 
 | Page | Used for |
 | ------------- | --------------- |
-| [Vecteezy](https://www.vecteezy.com/vector-art/8322134-elegant-floral-line-art-seamless-pattern) | Background image at member benefits section, from [Agnet Art](https://www.vecteezy.com/members/agnetart) |
-| [Vecteezy](https://www.vecteezy.com/photo/36594863-ai-generated-craft-shop-advertisment-background-with-copy-space) | Background image at 404 page, from [Oleg Gapeenko](https://www.vecteezy.com/members/gankogroup) |
-| [Vecteezy](https://www.vecteezy.com/photo/2264081-galactic-center-of-the-milky-way-with-many-colors-on-a-starry-sky-in-deep-space) | Background image at 500 page, from [TheCatEmpire Studio](https://www.vecteezy.com/members/thecatempirestudio) |
+| [Vecteezy](https://www.vecteezy.com/photo/_) | Background image at 500 page, from [_](https://www.vecteezy.com/members/_) |
 | [BeFunky](https://www.befunky.com/) | Edit and resize images |
 | [Pixelied](https://pixelied.com/convert) | Convert images to webp |
 | [TinyPNG](https://tinypng.com/) | Compress images |
 
-The profile photo at the about page is taken by Linus Wikell. All other photos are taken by the website creator, [Luke Maycock](https://github.com/l3wk3m).
+All other photos are taken by the website creator, [Luke Maycock](https://github.com/l3wk3m).
 
 ## Acknowledgements
 
