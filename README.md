@@ -142,7 +142,7 @@ The site owner goal is to facilitate the frictionless booking of studio spaces f
 
 ### User Stories
 
-For the project, four different Epics were created. To them, a total of ____ user stories were created. To view all user stories, they are viewable at the [Projects board](). All user stories were assigned one of the following classes; Must have, Should have, Could have or Won't have. 
+For the project, four different Epics were created. To them, a total of 13 user stories were created. To view all user stories, they are viewable at the [Projects board](). All user stories were assigned one of the following classes; Must have, Should have, Could have or Won't have. 
 
 The following user stories were completed within the first release of Studio Booker.
 
@@ -155,47 +155,35 @@ As a site owner, I would like to create a sign-up process that is intuitive and 
 As a site user I can easily find and access the sign-up page from the homepage so that I can create an account without confusion or unnecessary delays
 
 - Acceptance Criteria 1  
-Given that I am a not signed in user  
-When I visit the page  
-Then a visible and clearly labeled "Sign Up" button is present on the homepage  
+Given the user is not signed up, the sign-up button will be easy to find.
 - Acceptance Criteria 2  
-Given that I am a not signed in user  
-When clicking the "Sign Up" button  
-Then it navigates the user to the sign-up form  
+Given a user is not signed up, clicking the sign-up button takes them to the sign up page.
 
-**User Story - Filling out the sign-up form**
+**User Story - Filling in the sign-up form**
 
 As a site user I can enter my personal details into a sign-up form so that I can register for a new account
 
 - Acceptance Criteria 1  
-Given the user isn't signed in  
-When the user is filling out the sign up form  
-That the form includes fields for necessary information (e.g., email, password, confirmation of password)  
+Given the user doesn't have an account, when the user is filling out the sign up form the form includes fields for necessary information (e.g., email, password, confirmation of password)  
 - Acceptance Criteria 2  
-Given the user isn't signed in  
-When the user is filling out the sign up form  
-That the form has input validation (e.g., email format)
+Given the user doesn't have an account, when the user is filling out the sign up form the form has input validation (e.g., email format)
 
 #### Epic 2 - Development of a studio booking system
 
-As a site owner I would like to have a comprehensive, user-friendly booking system, so that users can effortlessly view, create, modify, and cancel bookings for various courses so that the user easy can book courses.
+As a site owner I would like to have a comprehensive booking system so that users can effortlessly create, read, update and delete bookings.
 
-**User Story - Viewing available spaces**
+**User Story - Viewing available studios**
 
-As a registered user I can easily view all available spaces so that I can decide which space to book based on my schedule
+As a Site User I can easily view all available studios so that I can book a studio based on my availability
 
 - Acceptance Criteria 1  
-Given as a site visitor  
-When the booking page is visited  
-Then a list of courses is available  
+As a site user the booking page is visited displaying a list of available studios  
 - Acceptance Criteria 2  
-Given as a site visitor  
-When the booking page is visited  
-Then course listing includes essential details such as course title, description, dates, and availability  
+As a site user, the studios list includes crucial details, such as the studio's location, availability, description, etc.  
 
 **User Story - Creating a new booking**
 
-As a registered user I can book a course so that I can secure my spot in a space I'm interested in
+As a Site User I can book a studio so that I can secure my exclusive place
 
 - Acceptance Criteria 1  
 Given that the user is signed in  
@@ -339,30 +327,22 @@ Given the user doesn't only use screen reader
 When the user visits the website  
 Then text styling is consistent throughout the website  
 
-**User Story - Playful and engaging text content**
-
-As a website owner I can incorporate text content throughout my website that is fun, engaging, and easygoing so that visitors can experience my playful side and enjoy a more relatable and memorable visit to my site
-
-- Acceptance criteria 1  
-Given I am reading the text content on the website  
-When I engage with any piece of content (such as about us, services, or blog posts)  
-Then the text should feel like a conversation with a friend, using casual language, jokes, or puns where appropriate, making the reading experience enjoyable and relaxed  
 
 ## Design
 
-The design is set to be modern but easy to read. It should draw the attention to the images which . 
+The design is aiming to be to be modern but easy to read. It should draw the attention to the websites core feature, the booking grid. 
 
 ### Color Scheme
 
-The color scheme is set to feel modern and harmonize with the hero image. Any bright colors in the scheme were avoided to not draw any attention from the images at the website. The colors are reused on all pages to make every page feel familiar and to enhance the feeling that the website is a unit. 
+The color scheme is set to  
 
 ### Typography
 
-The typography was chosen to have a modern touch. It was chosen to feel easygoing and fun, but at the same time easy to read. The text was designed to incorporate some spacing, ensuring it doesn't appear as a dense block of text upon opening a page. The written communication across the website adopts a playful tone to foster a friendly atmosphere. Emojis were added to make the tone more playful and friendly.  
+The typography was chosen to 
 
 ### Imagery
 
-All the images are chosen to inspire the website users. The images should give a warm feeling through their content and warm tone. The images have been designed with a playful and dynamic excerpt to encourage user engagement and increase sign-ups for the workshops. The objects on the images are things that has been made by the leader of the workshops. In other words, they are objects that you can create at the workshops!
+All the images are chosen to 
 
 ### Wireframes
 
@@ -470,7 +450,7 @@ If the user is visiting the index page without being signed in, there is a sign 
 
 ![Carousel of images]()
 
-At the bottom of the index page, a carousel with images are located. This carousel is there to present several more objects that can be created at the workshops. Their goal is to inspire users and increase their interest in registering for the workshops. The start image is an image with a text on it to get the user to start looking at the images.
+.
 
 ### About page
 
